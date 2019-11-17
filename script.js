@@ -39,7 +39,13 @@ function download(e){
 
 function remover(e){
   document.querySelector('.downloader').style.display = 'none';
+  const colors = document.querySelectorAll('.colorChanger');
+  for(col of colors)
+  {
+    col.style.display = 'none';
+  }
   document.querySelector('.jss').innerHTML=' ';
+
 }
 
 for(element of elements)
@@ -159,7 +165,7 @@ function titleCase(str) {
     End of the FOR Loop*/
   }
   
-  // Step 4. Return the output
+  
   return str.join(' '); // ["I'm", "A", "Little", "Tea", "Pot"].join(' ') => "I'm A Little Tea Pot"
 }
 
