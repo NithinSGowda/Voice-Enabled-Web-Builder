@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.blue{
+	background-image: linear-gradient(50deg,#176bfd 0,#000ed4 100%);
+	color: white;
+	min-height: 80%;
+	position: relative;
+
+}
+.a{
+	padding: 1em 0.5em 25px 1em;
+	border-bottom: 2px solid white; 
+}
+.a1,.a2,.a3{
+	padding: 0 1em 0 1em;
+}
+
+.a4{
+	float: right;
+}
+.a5{
+	margin-right: 1em; 
+	background-color: rgba(255, 253, 253, 0.979);
+	border-radius: 5px;
+	border: none;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+}
+.Download{
+	background-color: rgba(255, 253, 253, 0.979);
+	border-radius: 5px;
+	border: none;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+	/*transition: 0.2s;*/
+}
+.Download:hover, .a5:hover{
+	background-color: rgb(255, 208, 0);
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.05);
+}
+.logo{
+	padding: 1em 0em 1em 5%;
+}
+.title{
+	color:rgb(255, 255, 255);
+	font-weight: 1000;
+	font-size: 1.8em;
+	vertical-align: 110%;
+	text-shadow:2px 2px 2px rgb(148, 148, 148); 
+	padding-left: 1em;
+}
+
+.nav{
+	display: inline;
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+	padding-right: 5em;
+	vertical-align: 50%;
+	padding-top: 0.1em;
+}
+li{
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 2em;
+	font-size: 0.9em;
+	
+}
+.head2{
+	padding-left: 11.2%;
+	padding-top: 5%;	
+}
+.b1{
+	font-size: 3em;
+	line-height: 60px;
+	word-break: break-all;
+}
+.b2{
+	color: yellow;
+	font-size: 1.3em;
+}
+
+.b4{
+	background-color: rgba(255, 253, 253, 0.979);
+	border-radius: 5px;
+	border: none;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+	border: 1px solid white;
+	margin-right: 7px; 
+	font-size: 1.1em;
+	/*transition: 0.2s;*/
+}
+.b5{
+	background-color: rgba(255, 253, 253, 0);
+	border-radius: 5px;
+	color: white;
+	border: 1px solid white;
+	padding: 0.6em 4em 0.6em 4em;
+	vertical-align: top;
+	font-size: 1.1em;
+	/*transition: 0.2s;*/
+}
+
+.b4:hover{
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+}
+.b5:hover{
+	background-color: white;
+	color: black;
+}
+
+.follow{
+	margin-left: 4.5em; 
+	font-size: 0.7em;
+	background-color: #2E2EFF;
+	border: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 7px;
+}
+.et{
+	cursor: move;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.picker1{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.picker2{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+input[type="color"]{
+	width: 2rem;
+	height: 1.5rem;
+	background-color: black;
+	border: 3px white;
+}
+.change{
+	position: absolute;
+	bottom: 10px;
+	right: 45%;
+	background-color: rgba(255, 253, 253, 0);
+	border-radius: 5px;
+	color: white;
+	border: 1px solid white;
+	padding: 5px 10px 5px 10px;
+}
+
+.inpt{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.822);
+	top: 0;
+	/*display: none;*/
+	display: none;
+	
+	
+}
+.inpi{
+	border: 3px solid rgb(47, 0, 255);
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	margin: -105.5px -177.75px 0 0 ;
+	background-color: white;
+	padding: 2em;
+}
+.inpb{
+	margin: 0.75em;
+}
+
+.c,.c2,.c31,.c32{
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	text-align: center;
+}
+.c1{
+	padding: 1.5em;
+	background-color: rgb(255, 255, 255);
+	box-shadow:  0 2px 200px 0 rgba(56, 55, 55, 0.2), 0 20px 20px 0 rgba(87, 86, 86, 0.19);
+	border-radius: 5px;
+}
+.c31{
+	font-size: 2em;
+}
+.c32{
+	padding-top: 1em;
+	font-size: .8em;
+	padding-bottom: 4em;
+}
+.hrline{
+	min-height: 0.5px;
+	background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),rgb(155, 155, 155),rgba(255, 255, 255, 0));
+	margin-bottom: 4em;
+	margin-top: 4em;
+	border: 0px solid black;
+}
+.d{
+	padding: 0 20% 0 20%;
+}
+.d11{
+	background-color: blue;
+	border-radius: 3em;
+	color: white;
+	padding: 2px 1em 4px 1em ;
+}
+.d12{
+	padding-top: 2em;
+	font-size: 1.1em;
+	padding-bottom: 2em;
+}
+.d22{
+	padding: 2em;
+	border-radius: 5px;
+	box-shadow:  0 1px 2000px 0 rgba(129, 129, 129, 0.2), 0 20px 20px 0 rgba(156, 156, 156, 0.19);
+	font-size: 0.9em;
+	max-width: 170px;
+	max-height: 253px;
+	position: relative;
+	color: rgb(59, 59, 59);
+}
+.d22:hover{
+	box-shadow:  0 2px 200px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.dd1{
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.dd2{
+	color: grey;
+}
+.d21{
+	margin-bottom: 80px;
+}
+
+.inpl{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.822);
+	top: 0;
+	/*display: none;*/
+	display: none;
+}
+.dark{
+	min-width: 45px;
+	min-height: 45px;
+	background-color: black;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 10%;
+	left: 2%;
+}
+.f{
+	display: flex;
+	justify-content: center;
+	min-height: 35%;
+}
+.f2{
+	padding-top: 2em;
+	padding-left: 3em;
+}
+.f21{
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+.f22{
+	color: grey;
+	line-height: 2em;
+	padding-bottom: 1em;
+}
+
+.f23{
+	color: rgb(255, 187, 0);
+	border-bottom: 2px dotted rgb(255, 187, 0);
+}
+
+.g{
+	display:flex;
+	justify-content:center;
+}
+
+.g11{
+	font-size: 1.2em;
+	padding-bottom: 1em;
+	padding-right: 20em;
+
+}
+
+.g1{
+	padding-top:2em;
+}
+
+.g22{
+	border: solid lightgray;
+	background-color: white;
+	padding: 13px 20px;
+	font-size:1em;
+	border-radius: 10px;
+}
+
+.g24{
+	border: none;
+	background-color: #176bfd;
+	padding: 13px 20px;
+	font-size:1em;
+	border-radius: 10px
+}
+
+.tutorial{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.616);
+	position: fixed;
+	top: 0;
+	color: white;
+	font-size: 2em;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	display: none;
+	
+}
+
+.tt1b{
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	
+}
+
+.arrow{
+	animation-name: tutor;
+	animation-duration: 300ms;
+	animation-iteration-count: 3000;
+}
+@keyframes tutor {
+	from {
+		color: red;
+		transform: scale(1);
+	}
+	to {
+		color: rgb(229, 255, 0);
+		transform: scale(1.1);
+
+	}
+  }
+
+.tt2b{
+	position: fixed;
+	top: 42.5%;
+	left: 37.5%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	//border: 2px solid rgb(255, 251, 0);
+}
+
+.tt3a{
+	position: fixed;
+	font-size: 1.6em;
+}
+
+.tt3a1{
+	top: 73.8%;
+	left: 60px;
+}
+
+.tt3a2{
+	top: 73.8%;
+	right: 60px;
+}
+.tt3b{
+	position: fixed;
+	top: 68%;
+	left: 29.5%;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+	//border: 2px solid rgb(255, 251, 0);
+}
+
+.next{
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	background-color: yellow;
+	color: black;
+	font-size: 0.7em;
+	padding: 10px 1em 10px 1em;
+	border-radius: 7px;
+}
+.tt2{
+	display: none;
+}
+.tt3{
+	display: none;
+}
+.next:hover{
+	background-color: rgb(255, 187, 0);
+	cursor: grab;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	min-height: 30%;
+		
+}
+
+.foottable{
+	border-top : 0.5px solid rgb(124, 124, 124);
+	padding-top: 70px;
+	justify-content: center;
+	min-width: 70%;
+	padding-left: 20%;
+	padding-bottom: 70px;
+
+}
+.foottable th{
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.foottable td{
+	color: grey;
+	padding-top: 15px;
+	line-height: 1.5em;
+	min-width: 200px;
+}
+
+.credits{
+	color: rgb(255, 255, 255);
+	border-top : 0.5px solid rgb(124, 124, 124);
+
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	background-color: black;
+
+}
+
+
+.active{
+	text-shadow:  -1px -1px 0 #ffff00, 1px -1px 0 #ffff00, 1px -1px 0 #ffff00, 1px -1px 0 #ffff00;
+}
+
+*{
+	position: sticky;
+}
+
+.navigationButtons{
+	color: white;
+	position: absolute;
+	top : 25px;
+	right: 10px;
+}
+
+.downloader{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.726);
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.DBox{
+	min-height: 40vh;
+	width: 60%;
+	background-color: white;
+	border-radius: 8px;
+	border : 3px solid #176bfd;
+	text-align: center;
+	font-size: 2em;
+	line-height: 4em;
+	background-color: rgb(226, 239, 255);
+}
+
+.h1h{
+	font-size: 1.2em;
+	border-bottom: 2px solid #176bfd;
+}
+
+.h4h{
+	font-size: 2em;
+	padding-left: 10px;
+	color: red;
+}
+.intoMark{
+	position: fixed;
+	color: white;
+	top: 25%;
+	right : 18.2%;
+	font-size: 2em;
+}
+
+.intoMark:hover{
+	cursor: hand;
+}
